@@ -1,0 +1,141 @@
+.index-page {
+    height: 4680px;
+    width: 2160px;
+    background-image: radial-gradient(circle,rgb(255, 251, 21),
+     rgb(255, 182, 39), 
+     rgb(248, 159, 0),
+     rgb(0, 74, 117), 
+     black);
+     
+    
+    
+    h1{
+    font-family: 'Dubai', sans-serif;
+    letter-spacing: 35px;
+    font-size: 300px;
+    color: white;
+    text-shadow: 50px 50px 90px rgba(22, 15, 15, 0.781);
+    left: 0;
+    line-height: 100px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width:100%;
+    
+    }
+    nav{
+    font-family: 'Dubai', sans-serif;
+    font-size: 30px;
+    color: white;
+    
+    left: 0;
+    line-height: 450px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width:100%;
+     a{
+        text-decoration: none;
+        color: white;
+    }
+    }
+    footer{
+        text-align: bottom;
+    }
+}
+
+.home-page{
+    height: 4680px;
+    width: 2160px;
+    background-image: radial-gradient(circle,rgb(166, 166, 166),
+     rgb(0, 110, 99), 
+     rgb(0, 96, 94),
+     rgb(4, 68, 64), 
+     black);
+     
+     nav{
+        .portfolio-button{
+            background-image: linear-gradient(to bottom right, 
+            black, 
+            black, 
+            brown, 
+            gold);
+            font-family: 'Dubai', sans-serif;
+            font-size: 30px;
+            border:none;
+            
+            height:125px;
+            width: 450px;
+            right: 75px;
+            line-height: 200px;
+            margin-top: -200px;
+            position: absolute;
+            text-align: auto;
+            top: 50%;
+
+            a{
+                text-decoration: none;
+                text-align:center;
+                display: table-cell;
+                vertical-align: middle;
+                color: white;
+            }
+        }
+        .egg-roll-button{
+            background-image: linear-gradient(to bottom right, 
+            black, 
+            blue, 
+            grey, 
+            white);
+            font-family: 'Dubai', sans-serif;
+            font-size: 30px;
+            border:none;
+            
+            height:125px;
+            width: 450px;
+            right: 75px;
+            line-height: 200px;
+            margin-top: 10px;
+            position: absolute;
+            text-align: auto;
+            top: 50%;
+
+             a{
+                text-decoration: none;
+                text-align:center;
+                display: table-cell;
+                vertical-align: middle;
+                color: white;
+            }
+        }
+        .about-button{
+            background-image: linear-gradient(to bottom right, 
+            purple, 
+            grey, 
+            brown, 
+            gold);
+            font-family: 'Dubai', sans-serif;
+            font-size: 30px;
+            border:none;
+            
+            height:125px;
+            width: 450px;
+            right: 75px;
+            line-height: 200px;
+            margin-top: 250px;
+            position: absolute;
+            text-align: auto;
+            top: 50%;
+
+             a{
+                text-decoration: none;
+                text-align:center;
+                display: table-cell;
+                vertical-align: middle;
+                color: white;
+            }
+        }
+    }
+}
