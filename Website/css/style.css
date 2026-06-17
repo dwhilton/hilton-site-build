@@ -1,13 +1,12 @@
 .index-page {
-    height: 4680px;
-    width: 2160px;
-    background-image: radial-gradient(circle,rgb(255, 251, 21),
-     rgb(255, 182, 39), 
-     rgb(248, 159, 0),
+    height: 100%;
+     margin: 0;
+     background-image: radial-gradient(circle at bottom,
      rgb(0, 74, 117), 
      black);
-     
-    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
     
     h1{
     font-family: 'Dubai', sans-serif;
@@ -36,6 +35,7 @@
     text-align: center;
     top: 50%;
     width:100%;
+    
      a{
         text-decoration: none;
         color: white;
@@ -47,14 +47,13 @@
 }
 
 .home-page{
-    height: 4680px;
-    width: 2160px;
-    background-image: radial-gradient(circle,rgb(166, 166, 166),
-     rgb(0, 110, 99), 
-     rgb(0, 96, 94),
-     rgb(4, 68, 64), 
+      height: 100%;
+     margin: 0;
+     background-image: radial-gradient(circle at bottom,
+     rgb(0, 74, 117), 
      black);
-     
+    background-repeat: no-repeat;
+    background-attachment: fixed;
      nav{
         .portfolio-button{
             background-image: linear-gradient(to bottom right, 
@@ -64,7 +63,7 @@
             gold);
             font-family: 'Dubai', sans-serif;
             font-size: 30px;
-            border:none;
+            border: white solid 5px;
             
             height:125px;
             width: 450px;
@@ -91,13 +90,13 @@
             white);
             font-family: 'Dubai', sans-serif;
             font-size: 30px;
-            border:none;
+            border:white solid 5px;
             
             height:125px;
             width: 450px;
             right: 75px;
             line-height: 200px;
-            margin-top: 10px;
+            margin-top: -25px;
             position: absolute;
             text-align: auto;
             top: 50%;
@@ -118,13 +117,13 @@
             gold);
             font-family: 'Dubai', sans-serif;
             font-size: 30px;
-            border:none;
+            border: white solid 5px;
             
             height:125px;
             width: 450px;
             right: 75px;
             line-height: 200px;
-            margin-top: 250px;
+            margin-top: 150px;
             position: absolute;
             text-align: auto;
             top: 50%;
@@ -137,5 +136,94 @@
                 color: white;
             }
         }
+    }
+}
+.egg-roll-page{
+     height: 100%;
+     margin: 0;
+     background-image: radial-gradient(circle at bottom,
+     rgb(0, 74, 117), 
+     black);
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     
+    h1{
+        font-family: 'Dubai', sans-serif;
+        font-size: 100px;
+        color: white;
+        text-shadow: 50px 50px 90px rgba(22, 15, 15, 0.781);
+        left: 0;
+        line-height: 100px;
+        margin-top: -100px;
+        position: absolute;
+        text-align: center;
+        top: 15%;
+        width:100%;
+    }
+    .h2a{
+        font-family: 'Dubai', sans-serif;
+        color: rgb(201, 85, 85);
+        text-shadow: 25px 25px 45px rgba(22, 15, 15, 0.781);
+        left: 0;
+        line-height: 450px;
+        margin-top: -100px;
+        position: absolute;
+        text-align: center;
+        top: 8%;
+        width:100%;
+    }
+    .aunt-rosie{
+        height: 500px;
+        width: 500px;
+        left: 0;
+        margin-top: -100px;
+        position: absolute;
+        text-align: center;
+        top: 25%;
+        width:100%;
+    }
+    .h2b{
+        font-family: 'Dubai', sans-serif;
+        color: rgb(201, 85, 85);
+        text-shadow: 25px 25px 45px rgba(22, 15, 15, 0.781);
+        left: 0;
+        line-height: 450px;
+        margin-top: -100px;
+        position: absolute;
+        text-align: center;
+        top: -55%;
+        width:100%;
+    }
+    .ingredients{
+        height: 500px;
+        width: 500px;
+        left: 0;
+        margin-top: -100px;
+        position: absolute;
+        text-align: center;
+        top: 45%;
+        width:100%;
+    }
+    .h2c{
+        font-family: 'Dubai', sans-serif;
+        color: rgb(201, 85, 85);
+        text-shadow: 25px 25px 45px rgba(22, 15, 15, 0.781);
+        left: 0;
+        line-height: 450px;
+        margin-top: -100px;
+        position: absolute;
+        text-align: center;
+        top: -65%;
+        width:100%;
+    }
+    .instructions{
+        height: 500px;
+        width: 500px;
+        left: 0;
+        margin-top: -100px;
+        position: absolute;
+        text-align: center;
+        top: 80%;
+        width:100%;
     }
 }
