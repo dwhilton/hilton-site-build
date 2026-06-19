@@ -45,9 +45,9 @@
         text-align: bottom;
     }
 }
-
+/*-------------HOME PAGE------------------*/
 .home-page{
-      height: 100%;
+     height: 100%;
      margin: 0;
      background-image: radial-gradient(circle at bottom,
      rgb(0, 74, 117), 
@@ -66,7 +66,7 @@
             border: white solid 5px;
             
             height:125px;
-            width: 450px;
+            width: 500px;
             right: 75px;
             line-height: 200px;
             margin-top: -200px;
@@ -74,13 +74,7 @@
             text-align: auto;
             top: 50%;
 
-            a{
-                text-decoration: none;
-                text-align:center;
-                display: table-cell;
-                vertical-align: middle;
-                color: white;
-            }
+            
         }
         .egg-roll-button{
             background-image: linear-gradient(to bottom right, 
@@ -93,7 +87,7 @@
             border:white solid 5px;
             
             height:125px;
-            width: 450px;
+            width: 500px;
             right: 75px;
             line-height: 200px;
             margin-top: -25px;
@@ -101,13 +95,7 @@
             text-align: auto;
             top: 50%;
 
-             a{
-                text-decoration: none;
-                text-align:center;
-                display: table-cell;
-                vertical-align: middle;
-                color: white;
-            }
+             
         }
         .about-button{
             background-image: linear-gradient(to bottom right, 
@@ -120,7 +108,7 @@
             border: white solid 5px;
             
             height:125px;
-            width: 450px;
+            width: 500px;
             right: 75px;
             line-height: 200px;
             margin-top: 150px;
@@ -128,16 +116,26 @@
             text-align: auto;
             top: 50%;
 
-             a{
-                text-decoration: none;
-                text-align:center;
-                display: table-cell;
-                vertical-align: middle;
-                color: white;
-            }
+             
         }
     }
+    a{
+        text-decoration: none;
+        color: white;
+        display: table-cell;
+        vertical-align: middle;
+        
+    }
+    footer{
+        color: white;
+        margin-top: auto;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
 }
+/*------------------EGG ROLL PAGE------------------*/
 .egg-roll-page{
      height: 100%;
      margin: 0;
@@ -146,7 +144,67 @@
      black);
      background-repeat: no-repeat;
      background-attachment: fixed;
-     
+/*-------
+     body {
+        margin: 0;
+        padding: 0;
+    }
+        .nav-list{
+            display: flex;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333333;
+        }
+
+            .nav-list li {
+                float: left;
+            }
+
+        .nav-list a{
+            padding: 20px 16px;
+            display: block;
+        text-decoration: none;
+        color: white;
+    }
+----------*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* NAV BAR CONTAINER */
+.nav-list {
+    display: flex;                 /* modern layout */
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* EACH NAV ITEM */
+.nav-list li {
+    margin: 0;
+    padding: 0;
+}
+
+/* LINKS */
+.nav-list a {
+    display: block;                /* makes the whole area clickable */
+    padding: 20px 24px;            /* controls nav height */
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+/* HOVER EFFECT */
+.nav-list a:hover {
+    background-color: #555;
+}
+
     h1{
         font-family: 'Dubai', sans-serif;
         font-size: 100px;
@@ -225,5 +283,149 @@
         text-align: center;
         top: 80%;
         width:100%;
+    }
+    footer{
+        color: white;
+        margin-top: auto;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+}
+/*------------------ABOUT PAGE------------------*/
+.about-page{
+     height: 100%;
+     margin: 0;
+     background-image: radial-gradient(circle at bottom,
+     rgb(0, 74, 117), 
+     black);
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+
+     body {
+    margin: 0;
+    padding: 0;
+}
+
+/* NAV BAR CONTAINER */
+.nav-list {
+    display: flex;                 /* modern layout */
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* EACH NAV ITEM */
+.nav-list li {
+    margin: 0;
+    padding: 0;
+}
+
+/* LINKS */
+.nav-list a {
+    display: block;                /* makes the whole area clickable */
+    padding: 20px 24px;            /* controls nav height */
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+/* HOVER EFFECT */
+.nav-list a:hover {
+    background-color: #555;
+}
+
+     h1{
+        font-family: 'Dubai', sans-serif;
+        font-size: 100px;
+        color: white;
+        text-shadow: 50px 50px 90px rgba(22, 15, 15, 0.781);
+        left: 0;
+        line-height: 100px;
+        margin-top: -100px;
+        position: absolute;
+        text-align: center;
+        top: 15%;
+        width:100%;
+        }
+
+        footer{
+        color: white;
+        margin-top: auto;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+}
+
+/*------------------PORTFOLIO PAGE------------------*/
+.portfolio-page{
+     height: 100%;
+     margin: 0;
+     background-image: radial-gradient(circle at bottom,
+     rgb(0, 74, 117), 
+     black);
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+
+     body {
+    margin: 0;
+    padding: 0;
+}
+
+/* NAV BAR CONTAINER */
+.nav-list {
+    display: flex;                 /* modern layout */
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* EACH NAV ITEM */
+.nav-list li {
+    margin: 0;
+    padding: 0;
+}
+
+/* LINKS */
+.nav-list a {
+    display: block;                /* makes the whole area clickable */
+    padding: 20px 24px;            /* controls nav height */
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+/* HOVER EFFECT */
+.nav-list a:hover {
+    background-color: #555;
+}
+
+    h1{
+        font-family: 'Dubai', sans-serif;
+        font-size: 100px;
+        color: white;
+        text-shadow: 50px 50px 90px rgba(22, 15, 15, 0.781);
+        left: 0;
+        line-height: 100px;
+        margin-top: -100px;
+        position: absolute;
+        text-align: center;
+        top: 15%;
+        width:100%;
+    }
+    footer{
+        color: white;
+        margin-top: auto;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
     }
 }
