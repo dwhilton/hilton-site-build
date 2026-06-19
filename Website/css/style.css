@@ -41,13 +41,25 @@
         color: white;
     }
     }
-    footer p{
+
+    .footer-container{     
+        
+    footer{
         color: white;
-        margin-top: auto;
         position: absolute;
         bottom: 0;
         left: 0;
         width: 100%;
+    }
+
+    
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+        text-align: center;
+        z-index: 1000;
     }
 }
 /*-------------HOME PAGE------------------*/
@@ -131,13 +143,24 @@
         vertical-align: middle;
         
     }
-    footer p{
+    .footer-container{     
+        
+    footer{
         color: white;
-        margin-top: auto;
         position: absolute;
         bottom: 0;
         left: 0;
         width: 100%;
+    }
+
+    
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+        text-align: center;
+        z-index: 1000;
     }
 }
 /*------------------EGG ROLL PAGE------------------*/
@@ -149,33 +172,8 @@
      black);
      background-repeat: no-repeat;
      background-attachment: fixed;
-/*-------
-     body {
-        margin: 0;
-        padding: 0;
-    }
-        .nav-list{
-            display: flex;
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: #333333;
-        }
 
-            .nav-list li {
-                float: left;
-            }
-
-        .nav-list a{
-            padding: 20px 16px;
-            display: block;
-        text-decoration: none;
-        color: white;
-    }
-----------*/
-
-body {
+    body {
     margin: 0;
     padding: 0;
 }
@@ -187,6 +185,8 @@ body {
     margin: 0;
     padding: 0;
     list-style: none;
+    align-items: center;
+    justify-content: center;
 }
 
 /* EACH NAV ITEM */
@@ -198,10 +198,11 @@ body {
 /* LINKS */
 .nav-list a {
     display: block;                /* makes the whole area clickable */
-    padding: 20px 24px;            /* controls nav height */
+    padding: 20px 40px;            /* controls nav height ...second number spreads the padding horizontally */
     color: white;
     text-decoration: none;
     font-size: 20px;
+
 }
 
 
@@ -210,7 +211,7 @@ body {
     background-color: #555;
 }
 
-    h1{
+   h1{
         font-family: 'Dubai', sans-serif;
         font-size: 100px;
         color: white;
@@ -222,7 +223,32 @@ body {
         text-align: center;
         top: 15%;
         width:100%;
+        }
+
+      .aunt-rosie {
+    background-color: bisque;
+    width: 80%;                 /* responsive width */
+    max-width: 800px;           /* optional */
+    border: #a52525 dashed 5px;
+    padding: 50px;
+    margin: 50px auto;          /* centers the box */
+    position: relative;         /* important: keeps it in flow */
+      }
+
+
+        
+    
+     .about{
+        height: 500px;
+        width: 500px;
+        left: 0;
+        margin-top: -100px;
+        position: absolute;
+        text-align: center;
+        top: 25%;
+        width:100%;
     }
+    
     .h2a{
         font-family: 'Dubai', sans-serif;
         color: rgb(201, 85, 85);
@@ -235,16 +261,10 @@ body {
         top: 8%;
         width:100%;
     }
-    .aunt-rosie{
-        height: 500px;
-        width: 500px;
-        left: 0;
-        margin-top: -100px;
-        position: absolute;
-        text-align: center;
-        top: 25%;
-        width:100%;
-    }
+
+   
+        
+    
     .h2b{
         font-family: 'Dubai', sans-serif;
         color: rgb(201, 85, 85);
@@ -289,13 +309,25 @@ body {
         top: 80%;
         width:100%;
     }
+
+    .footer-container{     
+        
     footer{
         color: white;
-        margin-top: auto;
         position: absolute;
         bottom: 0;
         left: 0;
         width: 100%;
+    }
+
+    
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+        text-align: center;
+        z-index: 1000;
     }
 }
 /*------------------ABOUT PAGE------------------*/
@@ -320,6 +352,8 @@ body {
     margin: 0;
     padding: 0;
     list-style: none;
+    align-items: center;
+    justify-content: center;
 }
 
 /* EACH NAV ITEM */
@@ -331,10 +365,11 @@ body {
 /* LINKS */
 .nav-list a {
     display: block;                /* makes the whole area clickable */
-    padding: 20px 24px;            /* controls nav height */
+    padding: 20px 40px;            /* controls nav height ...second number spreads the padding horizontally */
     color: white;
     text-decoration: none;
     font-size: 20px;
+
 }
 
 
@@ -391,15 +426,26 @@ body {
     }
 
 }
-
-        footer{
+     .footer-container{     
+        
+    footer{
         color: white;
-        margin-top: auto;
         position: absolute;
         bottom: 0;
         left: 0;
         width: 100%;
     }
+
+    
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+        text-align: center;
+        z-index: 1000;
+    }
+    
 
     
 
@@ -414,7 +460,7 @@ body {
      background-repeat: no-repeat;
      background-attachment: fixed;
 
-     body {
+        body {
     margin: 0;
     padding: 0;
 }
@@ -426,6 +472,8 @@ body {
     margin: 0;
     padding: 0;
     list-style: none;
+    align-items: center;
+    justify-content: center;
 }
 
 /* EACH NAV ITEM */
@@ -437,10 +485,18 @@ body {
 /* LINKS */
 .nav-list a {
     display: block;                /* makes the whole area clickable */
-    padding: 20px 24px;            /* controls nav height */
+    padding: 20px 40px;            /* controls nav height ...second number spreads the padding horizontally */
     color: white;
     text-decoration: none;
     font-size: 20px;
+
+}
+
+
+/* HOVER EFFECT */
+.nav-list a:hover {
+    background-color: #555;
+}
 }
 
 
@@ -462,12 +518,23 @@ body {
         top: 15%;
         width:100%;
     }
+
+    .footer-container{     
+        
     footer{
         color: white;
-        margin-top: auto;
         position: absolute;
         bottom: 0;
         left: 0;
         width: 100%;
     }
-}
+
+    
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+        text-align: center;
+        z-index: 1000;
+    }

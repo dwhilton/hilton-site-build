@@ -16,3 +16,5 @@ Just to note...CSS is very interesting, but if you are not careful you can screw
 #06.19.2026 - off work today so hoping to have multiple updates throughout the day. 
 
 #Morning Update - Started messing with Margins and Paddings in the About Me CSS section, looks like the you can manipulate the box style, will come back to that later. downloaded icon packs for Instagram, LinkedIn, and Github...resolutions are pretty large so will have to take it into Affinity Designer and shrink them down a bit.
+
+#Afternoon Update - Updated Navigational Bar on each page centered and spaced the text out. Worked on footer, trying to put a navigational like bar at the bottom. working on egg roll page...kinda broke it...
