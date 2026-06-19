@@ -12,3 +12,7 @@ Read Me document created to track progress on the site
 
 #06.18.2026 - added png images to the images folder, trying to make the buttons the corrisponding image...researching solution. moved the footer at the bottom of each page. Worked on navigational bar, deleted what I had due to not really understanding the method, will return back to it later.
 Just to note...CSS is very interesting, but if you are not careful you can screw things up....started adding notes to style.css. ...Added navigational bar back...not working how i want it to, but will tinker with it until i get it right....honestly it might be a limitation issue, not sure yet.
+
+#06.19.2026 - off work today so hoping to have multiple updates throughout the day. 
+
+#Morning Update - Started messing with Margins and Paddings in the About Me CSS section, looks like the you can manipulate the box style, will come back to that later. downloaded icon packs for Instagram, LinkedIn, and Github...resolutions are pretty large so will have to take it into Affinity Designer and shrink them down a bit.

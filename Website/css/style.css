@@ -41,8 +41,13 @@
         color: white;
     }
     }
-    footer{
-        text-align: bottom;
+    footer p{
+        color: white;
+        margin-top: auto;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
     }
 }
 /*-------------HOME PAGE------------------*/
@@ -126,7 +131,7 @@
         vertical-align: middle;
         
     }
-    footer{
+    footer p{
         color: white;
         margin-top: auto;
         position: absolute;
@@ -352,6 +357,41 @@ body {
         width:100%;
         }
 
+    .about{
+        background-color: bisque;
+        width: 500px;
+        border:#a52525 dashed 5px;
+        padding: 50px; /*-- adds padding inside the box for better readability --*/
+        margin: 200px;
+        position: absolute;
+        align-items: center;
+        right: 350px;    
+    }
+
+    .links{
+        background-color: bisque;
+        width: 500px;
+        border:#a52525 dashed 5px;
+        margin-top: 450px;
+        margin-bottom: 0px;
+        margin-right: 250px;
+        margin-left: 50px;
+        position: absolute;
+        align-items: center;
+        right: 350px;    
+    }
+
+    .h2a{
+        text-decoration: none;
+        color: rgb(219, 66, 66);
+    }
+    ul a{
+        text-decoration: none;
+        color: rgb(179, 40, 40);
+    }
+
+}
+
         footer{
         color: white;
         margin-top: auto;
@@ -360,7 +400,9 @@ body {
         left: 0;
         width: 100%;
     }
-}
+
+    
+
 
 /*------------------PORTFOLIO PAGE------------------*/
 .portfolio-page{
