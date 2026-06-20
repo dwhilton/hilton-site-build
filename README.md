@@ -18,3 +18,5 @@ Just to note...CSS is very interesting, but if you are not careful you can screw
 #Morning Update - Started messing with Margins and Paddings in the About Me CSS section, looks like the you can manipulate the box style, will come back to that later. downloaded icon packs for Instagram, LinkedIn, and Github...resolutions are pretty large so will have to take it into Affinity Designer and shrink them down a bit.
 
 #Afternoon Update - Updated Navigational Bar on each page centered and spaced the text out. Worked on footer, trying to put a navigational like bar at the bottom. working on egg roll page...kinda broke it...
+
+#Evening Update - for the most part, the home page is completed....had to research why my images were not showing and i dont think i feel dumb...but it was a head scratcher. I think I am going to have to just rewrite the egg roll page...nothing is lining up on that and it is driving me nuts....maybe I don't need as many sections. The Footer issue for the three pages are resolved and I like the outcome...but I need to do some more experimentation. 
